@@ -5,8 +5,13 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+    /* background-color: rgb(246, 248, 249); */
+    background-color: black;
+}
+
 header {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 header #logo {
@@ -22,6 +27,38 @@ header h1{
     font-weight: 900;
 }
 
+main {
+    margin-top: 40px;
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+}
 
+nav {
+    max-height: 1000px;
+    border-bottom: 1px solid rgb(200, 206, 211);
+}
+
+main, nav {
+    background-color: rgb(255, 255, 255);
+    max-width: 1400px;
+    border-radius: 2px;
+}
+
+nav button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(200, 206, 211);
+    border-radius: 4px;
+    border: 1px solid rgb(200, 206, 211);
+    padding: 4px;
+}
+
+#first_button {
+    margin: 15px 5px 10px 50px;
+}
+
+nav button:hover {
+    background-color: rgb(71, 173, 241);
+}
 
 
