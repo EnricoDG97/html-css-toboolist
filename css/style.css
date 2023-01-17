@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+header #logo {
+    height: 80px;
+    margin: 15px 5px 15px 30px;
+}
+
+header h1{
+    display: inline-block;
+    line-height: 120px;
+    vertical-align: bottom;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+
+
+
