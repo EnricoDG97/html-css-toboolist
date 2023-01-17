@@ -66,3 +66,35 @@ main section {
     margin-left: 25px;
 }
 
+section button {
+    border-radius: 10px;
+    padding: 2px 8px 2px;
+    font-size: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+button.editorial_tag {
+    background-color: rgb(69, 171, 234);
+}
+
+button.website_tag {
+    background-color: rgb(216, 99, 161);
+}
+
+button.qonegoals_tag {
+    background-color: rgb(156, 114, 228);
+}
+
+button.recruiting_tag {
+    background-color: rgb(100, 192, 169);
+}
+
+button.mobile_tag {
+    background-color: rgb(242, 158, 51);
+}
+
+button.sales_tag {
+    background-color: rgb(176, 201, 38);
+}
+
